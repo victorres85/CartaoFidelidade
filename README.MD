@@ -1,19 +1,19 @@
 # Starting environment
 
-To work with python we have first to create a virtual enviroment to hold our project, to do it you will navagate to the project directory on the terminal and run the following command (keep on mind the python3 and pip have to be previously installed):
+Antes de mais nada precisamos criar nosso virtual enviroment,  para isso dentro do terminal, navegamos ateh o diretorio raiz de nosso projeto e colocamos o seguinte comando (cuidado: python3 e pip precisam ter sido previamente instalados):
 
 `python -m venv env`
 
-> Command used to create the virtual environment
+> Comando usado para criar a ambiente virtual
 
 `. env/bin/activate`
 
-> Command used to activate our virtual env
+> Comando usado para ativar o ambiente virtual 
 
 `pip install -r requirements.txt`
 
-> Command used to install all required libraries
+> Comando usado para installar os pacotes que vamos utilizar em nosso projeto
 
 `python manage.py runserver`
 
-> This command will run the application, now if you enter the http://127.0.0.1:8000 you should see our application running on your browser
+> Comando usado para rodar nossa aplicacao, Agora se entrar http://127.0.0.1:8000 em seu browser, voce deveria ver nossa aplicacao rodando.
